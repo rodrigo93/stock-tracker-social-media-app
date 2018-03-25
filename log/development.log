@@ -710,3 +710,120 @@ Processing by StocksController#search as JS
 Completed 200 OK in 736ms (Views: 2.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/my_portfolio" for 127.0.0.1 at 2018-03-25 18:48:06 -0300
+Processing by UsersController#my_portfolio as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/my_portfolio.html.erb within layouts/application
+  Rendered users/_result.html.erb (1.0ms)
+  Rendered users/my_portfolio.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 56ms (Views: 39.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=asdasdsad&button=" for 127.0.0.1 at 2018-03-25 18:48:08 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"asdasdsad", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (3.7ms)
+Completed 200 OK in 1162ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=asdasdsad&button=" for 127.0.0.1 at 2018-03-25 18:48:09 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"asdasdsad", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (4.3ms)
+Completed 200 OK in 715ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=asdasdsad&button=" for 127.0.0.1 at 2018-03-25 18:49:20 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"asdasdsad", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.3ms)
+  Rendered users/_result.js.erb (3.3ms)
+Completed 200 OK in 750ms (Views: 6.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=GOOG&button=" for 127.0.0.1 at 2018-03-25 18:49:24 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"GOOG", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (1.2ms)
+Completed 200 OK in 750ms (Views: 1.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=GOOG&button=" for 127.0.0.1 at 2018-03-25 18:50:52 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"GOOG", "button"=>""}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (1.2ms)
+Completed 200 OK in 749ms (Views: 2.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=asdas&button=" for 127.0.0.1 at 2018-03-25 18:50:54 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"asdas", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.3ms)
+  Rendered users/_result.js.erb (1.1ms)
+Completed 200 OK in 709ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=GOOG&button=" for 127.0.0.1 at 2018-03-25 18:50:58 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"GOOG", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (1.3ms)
+Completed 200 OK in 722ms (Views: 2.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/my_portfolio" for 127.0.0.1 at 2018-03-25 18:55:08 -0300
+Processing by UsersController#my_portfolio as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/my_portfolio.html.erb within layouts/application
+  Rendered users/_result.html.erb (0.3ms)
+  Rendered users/my_portfolio.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 32.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=GOOG&button=" for 127.0.0.1 at 2018-03-25 18:55:10 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"GOOG", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.5ms)
+  Rendered users/_result.js.erb (1.3ms)
+Completed 200 OK in 734ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=asdasdas&button=" for 127.0.0.1 at 2018-03-25 18:55:13 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"asdasdas", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.3ms)
+  Rendered users/_result.js.erb (1.2ms)
+Completed 200 OK in 710ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=&button=" for 127.0.0.1 at 2018-03-25 18:55:18 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"", "button"=>""}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search_stocks?utf8=%E2%9C%93&stock=GOOG&button=" for 127.0.0.1 at 2018-03-25 18:55:20 -0300
+Processing by StocksController#search as JS
+  Parameters: {"utf8"=>"✓", "stock"=>"GOOG", "button"=>""}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered users/_result.html.erb (0.4ms)
+  Rendered users/_result.js.erb (1.3ms)
+Completed 200 OK in 710ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
