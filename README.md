@@ -1,6 +1,6 @@
 # Stock Tracker
 
-Stock Tracker is an sample application where people can track stocks and add friends to see the stocks they are tracking as well.
+Stock Tracker is an simple application where people can track stocks and add friends to see the stocks they are tracking as well.
 
 ### Technical information
 
