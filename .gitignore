@@ -3,3 +3,8 @@
 
 # Temporary files
 /tmp/*
+
+# Hidden files
+.idea
+.rakeTasks
+.generators
