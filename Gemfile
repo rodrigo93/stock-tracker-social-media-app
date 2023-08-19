@@ -21,7 +21,7 @@ gem 'stock_quote'
 gem 'font-awesome-rails'
 
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.6'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
